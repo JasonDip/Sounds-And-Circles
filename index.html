@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sounds and Circles</title>
+	<link rel="stylesheet" href="/styles/app.css">
+    
+    <script type="text/javascript" src="/scripts/app.js"></script>
+    <script type="text/javascript" src="/scripts/lib/paper-full.js"></script>
+    <script type="text/javascript" src="/scripts/lib/howler.js"></script>
+    <script type="text/javascript" src="/scripts/lib/jquery-3.4.1.min.js"></script>
+
+	<!-- Note: If you are debugging locally, you must run in a live server or you will get the CORS policy error. -->
+	<script type="text/paperscript" src="/scripts/sounds-and-circles.js" canvas="myCanvas"></script>
+</head>
+
+<body>
+    <canvas id="myCanvas" resize></canvas>
+
+    <div id="hint">
+        <p>Adjust your volume.</p>
+        <p>Press your keyboard (a-z), mouse click, or tap the screen.</p>
+    </div>
+</body>
+</html>
