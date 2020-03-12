@@ -209,6 +209,7 @@ function onKeyDown(event) {
     );
 
     // play the sound for the pressed key
+    keysSounds[event.key].sound.volume(0.7);
     keysSounds[event.key].sound.play();
 }
 
@@ -254,7 +255,7 @@ function createRandomCircle(radius, circleFillColor) {
 
 function onFrame(event) {
     for (var i = 0; i < circles.length; i++) {
-        circles[i].fillColor.hue += 1;
+        //circles[i].fillColor.hue += 1;
         circles[i].scale(0.97);
 
         if (circles[i].area < 10) {
