@@ -1,3 +1,7 @@
 # Sounds and Circles
 
-Press buttons to create circles and hear sounds.
+Create sounds and circles.
+
+# Built With
+
+-   HTML/CSS/JS
